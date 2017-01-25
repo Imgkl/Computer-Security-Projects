@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:background="@color/BlackTransparent20Perc" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/ivLogo" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_dark_go_to_today" android:scaleType="centerInside" android:layout_alignParentLeft="true" />
+        <ImageButton android:id="@id/deleteSessionBtn" android:background="@color/WhiteTransparent50" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_light_cancel" android:layout_alignParentRight="true" android:onClick="onDeleteSession" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:textColor="@color/White" android:gravity="end" android:id="@id/tvWhen" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="12-12-2012" android:maxLines="2" android:layout_toLeftOf="@id/deleteBtn" android:layout_toRightOf="@id/ivLogo" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:textColor="@color/White" android:ellipsize="end" android:gravity="center" android:id="@id/tvContent" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." android:maxLines="3" />
+</LinearLayout>

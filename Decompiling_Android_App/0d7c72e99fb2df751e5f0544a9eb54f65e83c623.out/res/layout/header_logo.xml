@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/logo_area" android:background="@drawable/detail_header_bg" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@drawable/product_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip">
+        <ImageView android:id="@id/logo" android:layout_width="100.0dip" android:layout_height="60.0dip" android:onClick="onMugshotClick" />
+    </LinearLayout>
+    <TextView android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="60.0dip" android:layout_weight="1.0" style="@style/HeadingText" />
+    <CheckBox android:id="@id/favourite_star" android:focusable="true" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="28.0dip" style="?android:attr/starStyle" />
+</LinearLayout>

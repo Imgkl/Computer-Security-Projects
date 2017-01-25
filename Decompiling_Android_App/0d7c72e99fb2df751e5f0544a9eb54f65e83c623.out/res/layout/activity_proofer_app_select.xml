@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar" layout="@layout/action_bar" />
+    <RelativeLayout android:id="@id/filter_segment" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/action_bar">
+        <ImageButton android:id="@id/btn_search" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_delete" android:layout_alignParentRight="true" android:onClick="onClearSearchClick" />
+        <EditText android:id="@id/edit_search" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/btn_search" android:layout_alignParentLeft="true" android:inputType="textFilter|textNoSuggestions" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/bottom_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/lanyon_blue" android:id="@id/tvMode" android:paddingLeft="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/description" android:layout_alignParentLeft="true" />
+            <TextView android:textColor="@color/lanyon_blue" android:id="@id/tvCount" android:paddingRight="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/description" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <TextView android:textColor="@color/lanyon_blue" android:gravity="left" android:id="@id/tvAppBuild" android:paddingLeft="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/description" />
+    </LinearLayout>
+    <View android:id="@id/divider" android:background="@color/lanyon_blue" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:layout_above="@id/bottom_bar" />
+    <ListView android:id="@id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:transcriptMode="normal" android:layout_above="@id/divider" android:layout_below="@id/filter_segment" />
+    <TextView android:gravity="center" android:id="@id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/no_results" />
+</RelativeLayout>

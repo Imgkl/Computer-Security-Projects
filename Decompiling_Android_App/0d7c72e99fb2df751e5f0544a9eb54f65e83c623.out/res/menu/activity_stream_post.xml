@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_gm_tab_photo" android:id="@id/action_stream_post_picture" android:visible="true" android:orderInCategory="0" android:title="@string/action_post" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_gm_tab_breakout" android:id="@id/action_stream_post_entity" android:visible="true" android:orderInCategory="0" android:title="@string/action_post" app:showAsAction="always" />
+    <item android:id="@id/action_stream_post" android:visible="false" android:orderInCategory="0" android:title="@string/action_post" app:showAsAction="always" />
+</menu>

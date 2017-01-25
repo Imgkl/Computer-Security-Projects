@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/trophy_compare_row" android:background="@drawable/list_item_background_selector" android:layout_width="fill_parent" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_horizontal" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/sample_textview_text" style="@style/UnifiedListItemText.Title" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/title">
+        <ImageView android:id="@id/photo" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/image_placeholder" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_toLeftOf="@id/photo" android:layout_alignParentBottom="true">
+            <TextView android:gravity="center" android:id="@id/actions1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sample_textview_text" android:singleLine="true" android:layout_alignParentTop="true" />
+            <com.eventgenie.android.ui.other.TextProgressBar android:id="@id/progressbar1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="100" android:layout_below="@id/actions1" style="@android:style/Widget.ProgressBar.Horizontal" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_toRightOf="@id/photo" android:layout_alignParentBottom="true">
+            <TextView android:gravity="center" android:id="@id/actions2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sample_textview_text" android:singleLine="true" android:layout_alignParentTop="true" />
+            <com.eventgenie.android.ui.other.TextProgressBar android:id="@id/progressbar2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="100" android:layout_below="@id/actions2" style="@android:style/Widget.ProgressBar.Horizontal" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

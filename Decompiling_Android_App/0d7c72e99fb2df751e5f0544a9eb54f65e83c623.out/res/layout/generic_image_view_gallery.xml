@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper android:id="@id/flipperImageSessions" android:layout_width="@dimen/post_image_gallery_preview_size" android:layout_height="@dimen/post_image_gallery_preview_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/border" android:layout_width="@dimen/post_image_gallery_preview_size" android:layout_height="@dimen/post_image_gallery_preview_size">
+        <ImageView android:gravity="center" android:id="@id/image" android:layout_width="@dimen/post_image_gallery_preview_size" android:layout_height="@dimen/post_image_gallery_preview_size" />
+        <ImageButton android:id="@id/deleteBtn" android:background="@color/WhiteTransparent50" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_light_cancel" android:layout_alignTop="@id/image" android:layout_alignRight="@id/image" android:onClick="onDeleteSession" />
+    </RelativeLayout>
+    <include android:id="@id/session_entity" android:layout_width="@dimen/post_image_gallery_preview_size" android:layout_height="@dimen/post_image_gallery_preview_size" layout="@layout/card_session_entity_large" />
+</ViewFlipper>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/dashboard_window" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar" layout="@layout/action_bar" />
+    <LinearLayout android:orientation="vertical" android:id="@id/dashboard_upperBackgroundContainer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/dashboard_upperBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" android:contentDescription="@string/description" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/dashboard_lowerBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:contentDescription="@string/description" />
+        <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <GridView android:gravity="center" android:id="@id/dashboard_grid_1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="5.0dip" android:listSelector="@drawable/dashboard_grid_selector" android:horizontalSpacing="0.0dip" android:verticalSpacing="4.0dip" android:stretchMode="spacingWidthUniform" android:columnWidth="100.0dip" android:numColumns="auto_fit" />
+            <include android:id="@id/footer_ad" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/advert_bottom" />
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

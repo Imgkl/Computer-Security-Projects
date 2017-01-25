@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="@drawable/list_item_background_selector" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="62.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_vertical" android:id="@id/label" android:paddingRight="10.0dip" android:layout_width="64.0dip" android:layout_height="wrap_content" style="@style/ListItemText.Category" />
+    <TextView android:gravity="center_vertical" android:id="@android:id/text1" android:paddingRight="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/ListItemText.Secondary" />
+</LinearLayout>

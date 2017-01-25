@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar" layout="@layout/action_bar" />
+    <include android:id="@id/header_your_unique_qr_code" android:layout_width="fill_parent" layout="@layout/list_section_header_holo" />
+    <TextView android:id="@id/message_your_unique_qrcode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/message_your_unique_qrcode" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.eventgenie.android.ui.other.CustomViewFlipper android:id="@id/flipper_barcode" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="20.0dip">
+                <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/message_you_need_to_be_logged_in_for_your_barcode_to_appear" />
+                <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/login_button" android:onClick="onLoginClick" />
+            </LinearLayout>
+            <ImageView android:layout_gravity="center" android:id="@id/qrcode" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="15.0dip" android:src="@drawable/image_placeholder" android:scaleType="center" android:maxWidth="100.0dip" android:maxHeight="100.0dip" />
+        </com.eventgenie.android.ui.other.CustomViewFlipper>
+    </LinearLayout>
+    <include android:id="@id/header_scan_and_collect" android:layout_width="fill_parent" layout="@layout/list_section_header_holo" />
+    <TextView android:id="@id/message_qrcode_the_buttons_below" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/message_qrcode_the_buttons_below" />
+    <include android:id="@id/bottom_action_bar" android:layout_marginTop="5.0dip" layout="@layout/action_bar_bottom_favouritable" />
+</LinearLayout>

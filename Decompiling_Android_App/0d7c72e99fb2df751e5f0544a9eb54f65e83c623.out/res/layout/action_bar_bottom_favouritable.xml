@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/title_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/bottom_action_bar" android:background="@color/actionbar_gray" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageButton android:id="@id/btn_title_share" android:visibility="gone" android:src="@drawable/ic_action_light_share" android:layout_weight="1.0" android:onClick="onShareClick" android:contentDescription="@string/description" style="@style/TitleBarAction" />
+        <ImageButton android:id="@id/btn_title_download" android:visibility="gone" android:src="@drawable/ic_action_light_download" android:layout_weight="1.0" android:onClick="onDownloadClick" android:contentDescription="@string/description" style="@style/TitleBarAction" />
+        <ImageButton android:id="@id/btn_title_open" android:visibility="gone" android:src="@drawable/ic_action_light_accept" android:layout_weight="1.0" android:onClick="onOpenClick" android:contentDescription="@string/description" style="@style/TitleBarAction" />
+        <ImageButton android:id="@id/btn_title_email" android:visibility="gone" android:src="@drawable/ic_action_light_new_email" android:layout_weight="1.0" android:onClick="onEmailClick" android:contentDescription="@string/description" style="@style/TitleBarAction" />
+        <ImageButton android:id="@id/btn_title_delete" android:visibility="gone" android:src="@drawable/ic_action_light_discard" android:layout_weight="1.0" android:onClick="onDeleteClick" android:contentDescription="@string/description" style="@style/TitleBarAction" />
+        <com.eventgenie.android.ui.other.CustomViewFlipper android:id="@id/flipper_title_favourite" android:visibility="gone" android:layout_weight="1.0" style="@style/TitleBarAction">
+            <ImageButton android:id="@id/btn_title_favourite" android:visibility="gone" android:layout_width="fill_parent" android:src="@drawable/ic_action_light_not_important" android:onClick="onFavouriteClick" android:contentDescription="@string/description" style="@style/TitleBarAction" />
+            <ImageButton android:id="@id/btn_title_unfavourite" android:visibility="gone" android:layout_width="fill_parent" android:src="@drawable/ic_action_blue_important" android:onClick="onFavouriteClick" android:contentDescription="@string/description" style="@style/TitleBarAction" />
+        </com.eventgenie.android.ui.other.CustomViewFlipper>
+        <com.eventgenie.android.ui.other.CustomViewFlipper android:id="@id/flipper_title_note" android:visibility="gone" android:layout_weight="1.0" style="@style/TitleBarAction">
+            <ImageButton android:id="@id/btn_title_add_note" android:visibility="gone" android:layout_width="fill_parent" android:src="@drawable/ic_action_light_note_add" android:onClick="onNoteClick" android:contentDescription="@string/description" style="@style/TitleBarAction" />
+            <ImageButton android:id="@id/btn_title_remove_not" android:visibility="gone" android:layout_width="fill_parent" android:src="@drawable/ic_action_blue_note" android:onClick="onNoteClick" android:contentDescription="@string/description" style="@style/TitleBarAction" />
+        </com.eventgenie.android.ui.other.CustomViewFlipper>
+        <ImageButton android:id="@id/btn_title_message" android:visibility="gone" android:src="@drawable/ic_action_light_email" android:layout_weight="1.0" android:onClick="onMessageClick" android:contentDescription="@string/description" style="@style/TitleBarAction" />
+        <ImageButton android:id="@id/btn_title_meeting" android:visibility="gone" android:src="@drawable/ic_action_light_group" android:layout_weight="1.0" android:onClick="onMeetingClick" android:contentDescription="@string/description" style="@style/TitleBarAction" />
+        <ImageButton android:id="@id/btn_title_rate" android:visibility="gone" android:src="@drawable/ic_action_light_good" android:layout_weight="1.0" android:onClick="onFeedbackClick" android:contentDescription="@string/description" style="@style/TitleBarAction" />
+        <ImageButton android:id="@id/btn_title_route" android:visibility="gone" android:src="@drawable/ic_action_light_directions" android:layout_weight="1.0" android:onClick="onRouteClick" android:contentDescription="@string/description" style="@style/TitleBarAction" />
+        <ImageButton android:id="@id/btn_title_layers" android:visibility="gone" android:src="@drawable/ic_action_light_layers" android:layout_weight="1.0" android:onClick="onLayersClick" android:contentDescription="@string/description" style="@style/TitleBarAction" />
+        <ImageButton android:id="@id/btn_title_place_marker" android:visibility="gone" android:src="@drawable/ic_action_light_location_place" android:layout_weight="1.0" android:onClick="onPlaceMarkerClick" android:contentDescription="@string/description" style="@style/TitleBarAction" />
+        <ImageButton android:id="@id/btn_title_my_location" android:visibility="gone" android:src="@drawable/ic_action_light_location_found" android:layout_weight="1.0" android:onClick="onMyLocationClick" android:contentDescription="@string/description" style="@style/TitleBarAction" />
+        <com.eventgenie.android.ui.other.CustomViewFlipper android:id="@id/flipper_title_full_screen" android:visibility="gone" android:layout_weight="1.0" style="@style/TitleBarAction">
+            <ImageButton android:id="@id/btn_title_full_screen" android:layout_width="fill_parent" android:src="@drawable/ic_action_light_full_screen" android:onClick="onFullScreenToggle" android:contentDescription="@string/description" style="@style/TitleBarAction" />
+            <ImageButton android:id="@id/btn_title_full_screen_return" android:layout_width="fill_parent" android:src="@drawable/ic_action_light_return_from_full_screen" android:onClick="onFullScreenToggle" android:contentDescription="@string/description" style="@style/TitleBarAction" />
+        </com.eventgenie.android.ui.other.CustomViewFlipper>
+        <LinearLayout android:id="@id/section_resetWithText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <View android:background="@drawable/actionbar_divider_holo_light" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+            <RelativeLayout android:id="@id/section_resetWithTextWithoutDivider" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="onResetClick">
+                <Button android:id="@id/btn_resetWithText" android:text="@string/filter_reset" android:drawableLeft="@drawable/ic_action_light_cancel" android:onClick="onResetClick" android:contentDescription="@string/filter_reset" style="@style/BottomTitleBarTextAction" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@id/section_searchWithText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <View android:background="@drawable/actionbar_divider_holo_light" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+            <RelativeLayout android:id="@id/section_searchWithTextWithoutDivider" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="onSearchClick">
+                <Button android:id="@id/btn_searchWithText" android:text="@string/search_label" android:drawableLeft="@drawable/ic_action_light_search" android:contentDescription="@string/search_label" style="@style/BottomTitleBarTextAction" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@id/section_showRecommendedPeople" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <View android:background="@drawable/actionbar_divider_holo_light" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+            <RelativeLayout android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="onShowRecommendedPeopleClick" style="@style/TitleBarAction">
+                <Button android:id="@id/btn_showRecommendedPeople" android:text="@string/find_people_tab_recommended" android:drawableLeft="@drawable/ic_action_light_recommendation" android:contentDescription="@string/find_people_tab_recommended" style="@style/BottomTitleBarTextAction" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@id/section_replyWithText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <View android:background="@drawable/actionbar_divider_holo_light" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+            <RelativeLayout android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="onReplyClick" style="@style/TitleBarAction">
+                <Button android:id="@id/btn_replyWithText" android:text="@string/message_reply" android:drawableLeft="@drawable/ic_action_light_email" android:contentDescription="@string/find_people_tab_recommended" style="@style/BottomTitleBarTextAction" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@id/section_customButton1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <View android:background="@drawable/actionbar_divider_holo_light" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+            <RelativeLayout android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="onCustomButton1Click" style="@style/TitleBarAction">
+                <Button android:id="@id/btn_customButton1" style="@style/BottomTitleBarTextAction" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@id/section_customButton2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <View android:background="@drawable/actionbar_divider_holo_light" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+            <RelativeLayout android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="onCustomButton2Click" style="@style/TitleBarAction">
+                <Button android:id="@id/btn_customButton2" style="@style/BottomTitleBarTextAction" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@id/section_customButton3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <View android:background="@drawable/actionbar_divider_holo_light" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+            <RelativeLayout android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="onCustomButton3Click" style="@style/TitleBarAction">
+                <Button android:id="@id/btn_customButton3" style="@style/BottomTitleBarTextAction" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@id/section_customButton4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <View android:background="@drawable/actionbar_divider_holo_light" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+            <RelativeLayout android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="onCustomButton4Click" style="@style/TitleBarAction">
+                <Button android:id="@id/btn_customButton4" style="@style/BottomTitleBarTextAction" />
+            </RelativeLayout>
+        </LinearLayout>
+        <TextView android:textSize="12.0sp" android:textStyle="bold" android:gravity="center" android:id="@id/text_fullwidth" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <View android:layout_gravity="top" android:background="#22000000" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <View android:layout_gravity="top" android:background="#11000000" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="1.0dip" />
+</FrameLayout>

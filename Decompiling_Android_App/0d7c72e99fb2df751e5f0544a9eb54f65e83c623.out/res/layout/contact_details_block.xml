@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:shrinkColumns="1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:id="@id/rowAddress" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:src="@drawable/ic_profile_address" android:contentDescription="@string/contact_details_address" style="@style/RowHeaderIcon" />
+        <TextView android:id="@id/address" android:onClick="onContactItemClick" style="@style/ClickableContactDetailText" />
+    </TableRow>
+    <TableRow android:id="@id/rowPhone" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:src="@drawable/ic_profile_phone" android:contentDescription="@string/contact_details_telephone" style="@style/RowHeaderIcon" />
+        <TextView android:id="@id/phone" android:onClick="onContactItemClick" style="@style/ClickableContactDetailText" />
+    </TableRow>
+    <TableRow android:id="@id/rowPhone2" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:src="@drawable/ic_profile_phone" android:contentDescription="@string/contact_details_telephone" style="@style/RowHeaderIcon" />
+        <TextView android:id="@id/phone2" android:onClick="onContactItemClick" style="@style/ClickableContactDetailText" />
+    </TableRow>
+    <TableRow android:id="@id/rowFax" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:src="@drawable/ic_profile_fax" android:contentDescription="@string/contact_details_fax" style="@style/RowHeaderIcon" />
+        <TextView android:id="@id/fax" android:onClick="onContactItemClick" style="@style/ClickableContactDetailText" />
+    </TableRow>
+    <TableRow android:id="@id/rowEmail" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:src="@drawable/ic_profile_email" android:contentDescription="@string/contact_details_email" style="@style/RowHeaderIcon" />
+        <TextView android:id="@id/email" android:onClick="onContactItemClick" style="@style/ClickableContactDetailText" />
+    </TableRow>
+    <TableRow android:id="@id/rowWeb" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:src="@drawable/ic_profile_www" android:contentDescription="@string/contact_details_website" style="@style/RowHeaderIcon" />
+        <TextView android:id="@id/web" android:onClick="onContactItemClick" style="@style/ClickableContactDetailText" />
+    </TableRow>
+    <TableRow android:id="@id/rowBlog" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:src="@drawable/ic_profile_blog" android:contentDescription="@string/contact_details_blog" style="@style/RowHeaderIcon" />
+        <TextView android:id="@id/blog" android:onClick="onContactItemClick" style="@style/ClickableContactDetailText" />
+    </TableRow>
+    <TableRow android:id="@id/rowFacebook" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:src="@drawable/ic_profile_facebook" android:contentDescription="@string/contact_details_facebook" style="@style/RowHeaderIcon" />
+        <TextView android:id="@id/facebook" android:onClick="onContactItemClick" style="@style/ClickableContactDetailText" />
+    </TableRow>
+    <TableRow android:id="@id/rowTwitter" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:src="@drawable/ic_profile_twitter" android:contentDescription="@string/contact_details_twitter" style="@style/RowHeaderIcon" />
+        <TextView android:id="@id/twitter" android:onClick="onContactItemClick" style="@style/ClickableContactDetailText" />
+    </TableRow>
+    <TableRow android:id="@id/rowLinkedIn" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:src="@drawable/ic_profile_linkedin" android:contentDescription="@string/contact_details_linkedin" style="@style/RowHeaderIcon" />
+        <TextView android:id="@id/linkedin" android:onClick="onContactItemClick" style="@style/ClickableContactDetailText" />
+    </TableRow>
+    <TableRow android:id="@id/rowYoutube" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:src="@drawable/ic_profile_youtube" android:contentDescription="@string/contact_details_youtube" style="@style/RowHeaderIcon" />
+        <TextView android:id="@id/youtube" android:onClick="onContactItemClick" style="@style/ClickableContactDetailText" />
+    </TableRow>
+</TableLayout>

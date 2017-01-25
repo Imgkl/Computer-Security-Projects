@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_default" android:title="Default" />
+    <item android:id="@id/menu_mdpi" android:title="MDPI" />
+    <item android:id="@id/menu_hdpi" android:title="HDPI" />
+    <item android:id="@id/menu_lhdpi" android:title="LHDPI" />
+    <item android:id="@id/menu_xhdpi" android:title="XHDPI" />
+</menu>

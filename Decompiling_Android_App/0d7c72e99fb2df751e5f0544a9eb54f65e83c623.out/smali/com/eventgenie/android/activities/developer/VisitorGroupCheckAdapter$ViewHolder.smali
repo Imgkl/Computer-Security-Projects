@@ -1,0 +1,45 @@
+.class Lcom/eventgenie/android/activities/developer/VisitorGroupCheckAdapter$ViewHolder;
+.super Ljava/lang/Object;
+.source "VisitorGroupCheckAdapter.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/eventgenie/android/activities/developer/VisitorGroupCheckAdapter;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0xa
+    name = "ViewHolder"
+.end annotation
+
+
+# instance fields
+.field line1:Landroid/widget/TextView;
+
+.field line2:Landroid/widget/TextView;
+
+.field line3:Landroid/widget/TextView;
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    .prologue
+    .line 148
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method synthetic constructor <init>(Lcom/eventgenie/android/activities/developer/VisitorGroupCheckAdapter$1;)V
+    .locals 0
+    .param p1, "x0"    # Lcom/eventgenie/android/activities/developer/VisitorGroupCheckAdapter$1;
+
+    .prologue
+    .line 148
+    invoke-direct {p0}, Lcom/eventgenie/android/activities/developer/VisitorGroupCheckAdapter$ViewHolder;-><init>()V
+
+    return-void
+.end method

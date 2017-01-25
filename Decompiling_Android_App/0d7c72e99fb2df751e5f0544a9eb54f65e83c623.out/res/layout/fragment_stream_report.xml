@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/GrayLightSt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/focus" />
+    <RadioGroup android:orientation="horizontal" android:id="@id/rgFocus" android:background="@drawable/border" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:checkedButton="@id/rbFocusContent">
+        <RadioButton android:id="@id/rbFocusContent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/content" />
+        <RadioButton android:id="@id/rbFocusUser" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/user" />
+    </RadioGroup>
+    <TextView android:textColor="@color/GrayLightSt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/type" />
+    <RadioGroup android:orientation="horizontal" android:id="@id/rgType" android:background="@drawable/border" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:checkedButton="@id/rbTypeAbusive">
+        <RadioButton android:id="@id/rbTypeAbusive" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/abusive" />
+        <RadioButton android:id="@id/rbTypeExplicit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/explicit" />
+        <RadioButton android:id="@id/rbTypeOther" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/other" />
+    </RadioGroup>
+    <EditText android:id="@id/etReport" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <Button android:layout_gravity="center_horizontal" android:id="@id/btnSubmit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/submit" android:onClick="onSubmit" />
+</LinearLayout>

@@ -1,0 +1,20 @@
+Student Number: 3FF8D07459EC440628F2811207257C9E
+32 Bit String with same CRC32 Value: 000000000000000000000001CB5BBE51
+Found 2nd Collision: 000000000000000000000003C5C743AC
+The Matching CRC32 Value: 0xA402F581
+
+Run Time:  
+	- 7hours, 21mins on a single process that ran 5.1 billion combinations.
+	- Then 56 minutes on a multiprocess search that ran to 2.6 billion more combinations.
+	- Second Collision Occurred 1 hour and 33 minutes after the first collision.
+
+Procedure:
+- First I ran a search algorithm based off of quesiton 3 that compared my CRC32 value of my MD5 Student Number with a randomly generated 32 bit Hex String.
+- After about 5 hours, I gave up on the algorithm because using random is not efficient as it can have repeated strings tested.
+- Then I changed my algorithm go increment from 0x00000000000000000000000000000000 to 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+- I ran this search over night for around 7 hours and 21minutes with no collision.
+- Then I made my search algorithm search with multiple proccesses.
+- It took just under an hour to search 2.6 billion more combinations from where I left off with the previous algorithm that ran 5.1 billion combinations.
+- After about 13 hours of machine searching, I was able to design a faster algorithm to search for collisions that match my MD5 Student Number.
+- Because the search took a long time, I utilized my desktop at home which computes much faster. 
+- Because I am at school, I set up email notifications periodically to reassure the search did not crash and once it finished it emails the time and string that caused the collision.

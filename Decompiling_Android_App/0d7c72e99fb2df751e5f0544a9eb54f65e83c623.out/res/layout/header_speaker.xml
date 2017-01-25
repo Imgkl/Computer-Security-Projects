@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/detail_header_bg" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/photo" android:background="@drawable/myprofile_mugshot_border" android:layout_width="@dimen/mugshot_size" android:layout_height="@dimen/mugshot_size" android:layout_marginRight="10.0dip" android:src="@drawable/profile_placeholder" android:onClick="onMugshotClick" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@id/speaker_name" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/HeadingText" />
+        <TextView android:id="@id/speaker_company" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/HeadingText.Secondary" />
+    </LinearLayout>
+    <CheckBox android:id="@id/favourite_star" android:focusable="true" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="28.0dip" style="?android:attr/starStyle" />
+</LinearLayout>

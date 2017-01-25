@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar" layout="@layout/action_bar" />
+    <include android:id="@id/footer_ad" layout="@layout/advert_top" />
+    <TextView android:gravity="center_horizontal" android:id="@id/list_header" android:background="@color/light_background" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/BodyText" />
+    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:transcriptMode="normal" android:layout_weight="1.0" />
+    <TextView android:gravity="center" android:id="@android:id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/no_data" android:layout_weight="1.0" />
+</LinearLayout>

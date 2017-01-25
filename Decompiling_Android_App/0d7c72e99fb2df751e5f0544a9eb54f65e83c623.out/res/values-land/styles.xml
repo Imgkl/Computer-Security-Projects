@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.EventGenieDefault.Splash" parent="@style/Theme.EventGenieDefault">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+    <style name="advertisment_imageview">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/adbanner_height</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+</resources>

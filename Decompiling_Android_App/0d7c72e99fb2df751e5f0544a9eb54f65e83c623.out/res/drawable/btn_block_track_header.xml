@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/btn_block_color_body" />
+    <item android:drawable="@drawable/track_header" />
+    <item android:drawable="@drawable/btn_block_star" />
+    <item android:drawable="@drawable/btn_block_border" />
+</layer-list>

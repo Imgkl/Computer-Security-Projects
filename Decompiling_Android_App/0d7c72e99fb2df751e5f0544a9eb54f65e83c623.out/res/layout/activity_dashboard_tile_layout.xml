@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bg_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@string/description" />
+    <LinearLayout android:orientation="vertical" android:id="@id/dashboard_window" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/action_bar" layout="@layout/action_bar" />
+        <ScrollView android:layout_gravity="center_horizontal" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginBottom="5.0dip" android:layout_weight="1.0">
+            <com.eventgenie.android.ui.tiledashboard.FlowLayout android:id="@id/dashboard_flowLayout" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+        </ScrollView>
+        <include android:id="@id/footer_ad" layout="@layout/advert_bottom" />
+    </LinearLayout>
+</FrameLayout>

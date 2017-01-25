@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/btn_block_color_body" />
+    <item android:drawable="@drawable/btn_block_color_target" />
+    <item android:drawable="@drawable/btn_block_border" />
+    <item android:drawable="@drawable/btn_block_meeting" />
+    <item>
+        <bitmap android:gravity="bottom|center|right" android:src="@drawable/ic_action_blue_agenda" />
+    </item>
+    <item>
+        <bitmap android:gravity="bottom|center|right" android:src="@drawable/ic_action_blue_note" />
+    </item>
+    <item>
+        <bitmap android:gravity="bottom|center|right" android:src="@drawable/ic_action_blue_agenda_and_note" />
+    </item>
+    <item>
+        <bitmap android:gravity="bottom|center|right" android:src="@drawable/meeting_ticked_icon_small" />
+    </item>
+    <item>
+        <bitmap android:gravity="bottom|center|right" android:src="@drawable/meeting_query_icon_small" />
+    </item>
+    <item>
+        <bitmap android:gravity="bottom|center|right" android:src="@drawable/meeting_adhoc_small" />
+    </item>
+    <item>
+        <bitmap android:gravity="bottom|center|right" android:src="@drawable/ic_three_dots" />
+    </item>
+</layer-list>

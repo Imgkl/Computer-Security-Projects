@@ -1,0 +1,6 @@
+81496 different strings checked.
+The CRC32 Value: 5c964fe2 
+The two strings that returned the collision:
+X: 0U548PU46DQXENI4B8X5YO91SFUACYA3
+Y: 9MKOSF4U5HA0R2BV6UCFVXH1EA7F01QP
+---- 4.17757105827 seconds ----

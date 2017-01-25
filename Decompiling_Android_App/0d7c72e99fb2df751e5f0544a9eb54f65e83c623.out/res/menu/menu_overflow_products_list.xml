@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_action_dark_content_new" android:id="@id/menu_add_content" android:title="Add" android:showAsAction="always|withText" />
+</menu>

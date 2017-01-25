@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/map_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.eventgenie.android.ui.mapping2d.TwoDScrollView android:id="@id/map2d_scroller" android:drawingCacheQuality="low" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/action_bar">
+            <com.eventgenie.android.ui.mapping2d.AbsoluteLayoutEg android:id="@id/map2d_absolutelayout" android:padding="120.0px" android:drawingCacheQuality="low" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.eventgenie.android.ui.mapping2d.TwoDScrollView>
+    </FrameLayout>
+    <include android:id="@id/action_bar" layout="@layout/action_bar" />
+    <ZoomControls android:id="@id/map2d_zoom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/exhibitor_overlay" android:background="#cc111111" android:visibility="invisible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="180.0dip" android:layout_alignParentBottom="true">
+        <LinearLayout android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/hideme" android:paddingLeft="5.0dip" android:paddingTop="5.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/overlay_close" android:scaleType="fitStart" android:onClick="onClickHideOverlay" />
+            <TextView android:gravity="center" android:id="@id/exhibitor_location" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/HeadingText.Secondary" />
+            <CheckBox android:id="@id/exhibitor_fav" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" style="@style/EventGenieCheckbox.Favourite" />
+            <CheckBox android:id="@id/session_fav" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" style="@style/EventGenieCheckbox.Agenda" />
+        </LinearLayout>
+        <TextView android:ellipsize="marquee" android:gravity="center" android:id="@id/exhibitor_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:singleLine="true" android:layout_weight="1.0" style="@style/HeadingText" />
+        <Button android:id="@id/btn_exhibitor_details" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="5.0dip" android:onClick="onClickExhibitorDetails" />
+        <TextView android:ellipsize="end" android:gravity="center" android:id="@id/entity_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="5.0dip" android:maxLines="2" style="@style/HeadingText.Secondary" />
+        <ListView android:id="@id/list_exhibitor_details" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:id="@id/route_buttons" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip">
+            <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ff004d13" android:id="@id/btn_directions_from" android:background="@color/white" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="@string/map_directions_from" android:layout_weight="1.0" android:onClick="onClickDirectionsFrom" />
+            <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ff4d0000" android:id="@id/btn_directions_to" android:background="@color/white" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/map_directions_to" android:layout_weight="1.0" android:onClick="onClickDirectionsTo" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar" layout="@layout/action_bar" />
+    <include android:id="@id/header_visitor" android:background="@color/grey_background" layout="@layout/header_visitor" />
+    <LinearLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0px" android:layout_height="0.0px" />
+    <FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ListView android:id="@id/list_my_profile" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <include android:id="@id/bottom_action_bar" layout="@layout/action_bar_bottom_favouritable" />
+</LinearLayout>

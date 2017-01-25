@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/detail_header_bg" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/vcard_photo" android:paddingRight="10.0dip" android:layout_width="54.0dip" android:layout_height="54.0dip" android:src="@drawable/profile_placeholder" />
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:id="@id/vcard_name" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/HeadingText" />
+                <TextView android:id="@id/vcard_company" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/HeadingText.Secondary" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/location_track_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/details_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/details_label" style="?android:attr/listSeparatorTextViewStyle" />
+            <LinearLayout android:id="@id/email_layout" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/email_label" android:layout_width="70.0dip" android:layout_height="wrap_content" android:text="@string/vcard_email" />
+                <TextView android:autoLink="email" android:id="@id/vcard_email" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/BodyText" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/phone_work_layout" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="70.0dip" android:layout_height="wrap_content" android:text="@string/vcard_tel_work" />
+                <TextView android:autoLink="phone" android:id="@id/vcard_phone_work" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/BodyText" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/phone_home_layout" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="70.0dip" android:layout_height="wrap_content" android:text="@string/vcard_tel_home" />
+                <TextView android:autoLink="phone" android:id="@id/vcard_phone_home" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/BodyText" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/address_home_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/vcard_address_home" style="?android:attr/listSeparatorTextViewStyle" />
+                <TextView android:autoLink="all" android:id="@id/vcard_address_home" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" style="@style/BodyText" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/address_work_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/vcard_address_work" style="?android:attr/listSeparatorTextViewStyle" />
+                <TextView android:autoLink="all" android:id="@id/vcard_address_work" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" style="@style/BodyText" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/notes_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/label_notes" style="?android:attr/listSeparatorTextViewStyle" />
+                <TextView android:autoLink="all" android:id="@id/vcard_notes" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/BodyText" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/vcard_buttons_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:ellipsize="none" android:id="@id/vcard_save" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vcard_save" android:singleLine="true" android:layout_weight="1.0" />
+                <Button android:ellipsize="none" android:id="@id/vcard_addcontact" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vcard_addtocontact" android:singleLine="true" android:layout_weight="1.0" />
+                <Button android:ellipsize="none" android:id="@id/vcard_discard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vcard_discard" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

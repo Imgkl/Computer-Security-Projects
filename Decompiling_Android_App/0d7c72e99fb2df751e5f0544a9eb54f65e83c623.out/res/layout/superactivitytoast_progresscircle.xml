@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom|center" android:orientation="horizontal" android:id="@id/root_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/toast_hover" style="@style/DefaultRootLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/progress_bar" android:layout_height="fill_parent" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" style="@style/SuperActivityToast_Progress_ProgressBar" />
+    <TextView android:gravity="center" android:id="@id/message_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SuperActivityToast_Progress_TextView" />
+</LinearLayout>

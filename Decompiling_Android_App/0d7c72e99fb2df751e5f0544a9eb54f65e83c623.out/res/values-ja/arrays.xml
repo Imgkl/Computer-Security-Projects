@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="feeback_ratings">
+        <item>5 – 素晴らしい</item>
+        <item>4 – 良い</item>
+        <item>3 – まあまあ</item>
+        <item>2 – 改善の余地がある</item>
+        <item>1 – 悪い</item>
+    </string-array>
+    <string-array name="yes_no">
+        <item>はい</item>
+        <item>いいえ</item>
+    </string-array>
+</resources>

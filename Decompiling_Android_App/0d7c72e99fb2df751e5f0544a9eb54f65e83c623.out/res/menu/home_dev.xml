@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_proofer" android:id="@id/menu_proofer" android:title="Proofer" />
+    <item android:icon="@drawable/ic_menu_compass" android:id="@id/menu_debug" android:title="Debug" />
+    <item android:icon="@drawable/ic_menu_search" android:id="@id/menu_search" android:title="@string/search_label" />
+    <item android:icon="@drawable/ic_menu_preferences" android:id="@id/menu_settings" android:title="@string/settings_title" />
+</menu>

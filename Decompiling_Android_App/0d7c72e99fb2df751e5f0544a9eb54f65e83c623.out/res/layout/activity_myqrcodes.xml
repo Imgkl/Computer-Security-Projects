@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar" layout="@layout/action_bar" />
+    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:transcriptMode="normal" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:gravity="center" android:id="@android:id/empty" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/no_data" android:layout_centerInParent="true" />
+        <Button android:id="@id/scan" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/message_scan_a_qrcode" android:layout_below="@android:id/empty" android:layout_centerHorizontal="true" android:onClick="onScan" />
+    </RelativeLayout>
+    <requestFocus />
+</LinearLayout>

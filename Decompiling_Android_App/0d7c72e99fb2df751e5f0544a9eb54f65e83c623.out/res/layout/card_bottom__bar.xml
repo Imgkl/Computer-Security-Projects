@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/Transparent" android:paddingLeft="8.0dip" android:paddingTop="1.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/viewSeparatorHorizontal" android:background="#e0e0e0e0" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:background="@color/Transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip">
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/ibFavButton" android:background="@color/Transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_action_fav_on" android:layout_weight="1.0" />
+        <View android:id="@id/viewSeparatorLeft" android:background="#e0e0e0e0" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="-4.0dip" android:layout_marginBottom="-4.0dip" />
+        <FrameLayout android:id="@id/flCommentsButton" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageButton android:layout_gravity="center" android:id="@id/ibCommentsButton" android:background="@color/Transparent" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_light_chat" />
+        </FrameLayout>
+        <View android:id="@id/viewSeparatorRight" android:background="#e0e0e0e0" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="-4.0dip" android:layout_marginBottom="-4.0dip" />
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/ibShareButton" android:background="@color/Transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_action_share" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

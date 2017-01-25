@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/header_organisation" layout="@layout/list_section_header_holo" />
+    <TableLayout android:id="@id/tableOrganisation" style="@style/DetailsTableStyle">
+        <TableRow android:id="@id/rowTitle" style="@style/DetailsRowStyle">
+            <TextView android:text="@string/contact_details_organisation_title" style="@style/RowHeaderText" />
+            <TextView android:id="@id/title" android:tag="jobTitle" android:layout_weight="1.0" style="@style/RowContentText" />
+        </TableRow>
+        <TableRow android:id="@id/rowDepartment" style="@style/DetailsRowStyle">
+            <TextView android:text="@string/contact_details_organisation_department" style="@style/RowHeaderText" />
+            <TextView android:id="@id/department" android:tag="department" android:layout_weight="1.0" style="@style/RowContentText" />
+        </TableRow>
+        <TableRow android:id="@id/rowCompany" style="@style/DetailsRowStyle">
+            <TextView android:text="@string/contact_details_organisation_company" style="@style/RowHeaderText" />
+            <TextView android:id="@id/company" android:tag="companyName" android:layout_weight="1.0" style="@style/RowContentText" />
+        </TableRow>
+    </TableLayout>
+    <include android:id="@id/header_reason_for_attending" layout="@layout/list_section_header_holo" />
+    <TextView android:gravity="top" android:id="@id/reasonForAttending" android:tag="reasonForAttending" android:nextFocusLeft="@id/reasonForAttending" android:nextFocusUp="@id/reasonForAttending" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" />
+    <include android:id="@id/header_bio" layout="@layout/list_section_header_holo" />
+    <TextView android:gravity="top" android:id="@id/bio" android:tag="fullDescription" android:nextFocusLeft="@id/bio" android:nextFocusUp="@id/bio" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" />
+    <include android:id="@id/header_address" layout="@layout/list_section_header_holo" />
+    <TableLayout android:id="@id/tableAddress" android:shrinkColumns="1" style="@style/DetailsTableStyle">
+        <TableRow android:id="@id/rowAddress1" style="@style/DetailsRowStyle">
+            <TextView android:text="@string/contact_details_address_line1" style="@style/RowHeaderText" />
+            <TextView android:id="@id/address1" android:tag="address1" style="@style/RowContentText" />
+        </TableRow>
+        <TableRow android:id="@id/rowAddress2" style="@style/DetailsRowStyle">
+            <TextView android:text="@string/contact_details_address_line2" style="@style/RowHeaderText" />
+            <TextView android:id="@id/address2" android:tag="address2" style="@style/RowContentText" />
+        </TableRow>
+        <TableRow android:id="@id/rowAddress3" style="@style/DetailsRowStyle">
+            <TextView android:text="@string/contact_details_address_line3" style="@style/RowHeaderText" />
+            <TextView android:id="@id/address3" android:tag="address3" style="@style/RowContentText" />
+        </TableRow>
+        <TableRow android:id="@id/rowTown" style="@style/DetailsRowStyle">
+            <TextView android:text="@string/contact_details_address_town" style="@style/RowHeaderText" />
+            <TextView android:id="@id/town" android:tag="town" style="@style/RowContentText" />
+        </TableRow>
+        <TableRow android:id="@id/rowCounty" style="@style/DetailsRowStyle">
+            <TextView android:text="@string/contact_details_address_county" style="@style/RowHeaderText" />
+            <TextView android:id="@id/county" android:tag="county" style="@style/RowContentText" />
+        </TableRow>
+        <TableRow android:id="@id/rowPostCode" style="@style/DetailsRowStyle">
+            <TextView android:text="@string/contact_details_address_postcode" style="@style/RowHeaderText" />
+            <TextView android:id="@id/postCode" android:tag="postCode" style="@style/RowContentText" />
+        </TableRow>
+        <TableRow android:id="@id/rowCountry" style="@style/DetailsRowStyle">
+            <TextView android:text="@string/contact_details_address_country" style="@style/RowHeaderText" />
+            <TextView android:id="@id/country" android:tag="country" style="@style/RowContentText" />
+        </TableRow>
+    </TableLayout>
+    <include android:id="@id/header_contact_details" layout="@layout/list_section_header_holo" />
+    <TableLayout android:id="@id/tableOtherDetails" style="@style/DetailsTableStyle">
+        <TableRow android:id="@id/rowPhone" style="@style/DetailsRowStyle">
+            <ImageView android:src="@drawable/ic_profile_phone" android:contentDescription="@string/contact_details_telephone" style="@style/RowHeaderIcon" />
+            <TextView android:autoLink="phone" android:id="@id/phone" android:tag="telephone" style="@style/ClickableContactDetailText" />
+        </TableRow>
+        <TableRow android:id="@id/rowPhone2" style="@style/DetailsRowStyle">
+            <ImageView android:src="@drawable/ic_profile_phone" android:contentDescription="@string/contact_details_telephone" style="@style/RowHeaderIcon" />
+            <TextView android:autoLink="phone" android:id="@id/phone2" android:tag="telephone2" style="@style/ClickableContactDetailText" />
+        </TableRow>
+        <TableRow android:id="@id/rowFax" style="@style/DetailsRowStyle">
+            <ImageView android:src="@drawable/ic_profile_fax" android:contentDescription="@string/contact_details_fax" style="@style/RowHeaderIcon" />
+            <TextView android:autoLink="phone" android:id="@id/fax" android:tag="fax" style="@style/ClickableContactDetailText" />
+        </TableRow>
+        <TableRow android:id="@id/rowEmail" style="@style/DetailsRowStyle">
+            <ImageView android:src="@drawable/ic_profile_email" android:contentDescription="@string/contact_details_email" style="@style/RowHeaderIcon" />
+            <TextView android:autoLink="email" android:id="@id/email" android:tag="email" style="@style/ClickableContactDetailText" />
+        </TableRow>
+        <TableRow android:id="@id/rowWeb" style="@style/DetailsRowStyle">
+            <ImageView android:src="@drawable/ic_profile_www" android:contentDescription="@string/contact_details_website" style="@style/RowHeaderIcon" />
+            <TextView android:autoLink="web" android:id="@id/web" android:tag="www" style="@style/ClickableContactDetailText" />
+        </TableRow>
+        <TableRow android:id="@id/rowBlog" style="@style/DetailsRowStyle">
+            <ImageView android:src="@drawable/ic_profile_blog" android:contentDescription="@string/contact_details_blog" style="@style/RowHeaderIcon" />
+            <TextView android:autoLink="web" android:id="@id/blog" android:tag="blogUrl" style="@style/ClickableContactDetailText" />
+        </TableRow>
+        <TableRow android:id="@id/rowFacebook" style="@style/DetailsRowStyle">
+            <ImageView android:src="@drawable/ic_profile_facebook" android:contentDescription="@string/contact_details_facebook" style="@style/RowHeaderIcon" />
+            <TextView android:id="@id/facebook" android:tag="facebook" style="@style/ClickableContactDetailText" />
+        </TableRow>
+        <TableRow android:id="@id/rowTwitter" style="@style/DetailsRowStyle">
+            <ImageView android:src="@drawable/ic_profile_twitter" android:contentDescription="@string/contact_details_twitter" style="@style/RowHeaderIcon" />
+            <TextView android:id="@id/twitter" android:tag="twitter" style="@style/ClickableContactDetailText" />
+        </TableRow>
+        <TableRow android:id="@id/rowLinkedIn" style="@style/DetailsRowStyle">
+            <ImageView android:src="@drawable/ic_profile_linkedin" android:contentDescription="@string/contact_details_linkedin" style="@style/RowHeaderIcon" />
+            <TextView android:id="@id/linkedin" android:tag="linkedIn" style="@style/ClickableContactDetailText" />
+        </TableRow>
+        <TableRow android:id="@id/rowYoutube" style="@style/DetailsRowStyle">
+            <ImageView android:src="@drawable/ic_profile_youtube" android:contentDescription="@string/contact_details_youtube" style="@style/RowHeaderIcon" />
+            <TextView android:id="@id/youtube" android:tag="youtubeUrl" style="@style/ClickableContactDetailText" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="feeback_ratings">
+        <item>5 – ดีเยี่ยม</item>
+        <item>4 – ดี</item>
+        <item>3 – ใช้ได้</item>
+        <item>2 – น่าจะดีกว่านี้</item>
+        <item>1 – แย่</item>
+    </string-array>
+    <string-array name="yes_no">
+        <item>ใช่</item>
+        <item>ไม่</item>
+    </string-array>
+</resources>

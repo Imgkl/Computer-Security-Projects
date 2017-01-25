@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@color/BlackTransparent20Perc" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/ivLogo" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_action_dark_go_to_today" android:scaleType="centerInside" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/White" android:gravity="end" android:layout_gravity="end|center" android:id="@id/tvWhen" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Entity" android:maxLines="1" />
+    </LinearLayout>
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/White" android:gravity="center" android:id="@id/tvContent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." android:maxLines="3" />
+</LinearLayout>

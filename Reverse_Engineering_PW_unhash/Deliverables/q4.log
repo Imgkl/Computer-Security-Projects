@@ -1,0 +1,433 @@
+1 0:00:00:00 Starting a new session
+1 0:00:00:00 Loaded a total of 1 password hash
+1 0:00:00:00 - Node numbers 1-32 of 32 (fork)
+3 0:00:00:00 Proceeding with mask mode
+6 0:00:00:00 Proceeding with mask mode
+5 0:00:00:00 Proceeding with mask mode
+7 0:00:00:00 Proceeding with mask mode
+4 0:00:00:00 Proceeding with mask mode
+2 0:00:00:00 Proceeding with mask mode
+8 0:00:00:00 Proceeding with mask mode
+9 0:00:00:00 Proceeding with mask mode
+10 0:00:00:00 Proceeding with mask mode
+11 0:00:00:00 Proceeding with mask mode
+12 0:00:00:00 Proceeding with mask mode
+13 0:00:00:00 Proceeding with mask mode
+14 0:00:00:00 Proceeding with mask mode
+15 0:00:00:00 Proceeding with mask mode
+16 0:00:00:00 Proceeding with mask mode
+17 0:00:00:00 Proceeding with mask mode
+18 0:00:00:00 Proceeding with mask mode
+19 0:00:00:00 Proceeding with mask mode
+20 0:00:00:00 Proceeding with mask mode
+21 0:00:00:00 Proceeding with mask mode
+22 0:00:00:00 Proceeding with mask mode
+23 0:00:00:00 Proceeding with mask mode
+24 0:00:00:00 Proceeding with mask mode
+25 0:00:00:00 Proceeding with mask mode
+26 0:00:00:00 Proceeding with mask mode
+27 0:00:00:00 Proceeding with mask mode
+28 0:00:00:00 Proceeding with mask mode
+29 0:00:00:00 Proceeding with mask mode
+30 0:00:00:00 Proceeding with mask mode
+31 0:00:00:00 Proceeding with mask mode
+1 0:00:00:00 - Hash type: Raw-SHA1 (lengths up to 55)
+1 0:00:00:00 - Algorithm: SHA1 128/128 SSSE3 8x
+1 0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 8
+1 0:00:00:00 - Configured to use otherwise idle processor cycles only
+32 0:00:00:00 Proceeding with mask mode
+1 0:00:00:00 Proceeding with mask mode
+1 0:00:22:13 Waiting for 31 children to terminate
+2 0:00:22:13 Session aborted
+16 0:00:22:13 Session aborted
+8 0:00:22:13 Session aborted
+21 0:00:22:13 Session aborted
+28 0:00:22:13 Session aborted
+13 0:00:22:13 Session aborted
+5 0:00:22:13 Session aborted
+7 0:00:22:13 Session aborted
+3 0:00:22:13 Session aborted
+14 0:00:22:13 Session aborted
+19 0:00:22:13 Session aborted
+18 0:00:22:13 Session aborted
+23 0:00:22:13 Session aborted
+6 0:00:22:13 Session aborted
+27 0:00:22:13 Session aborted
+12 0:00:22:13 Session aborted
+29 0:00:22:13 Session aborted
+4 0:00:22:13 Session aborted
+10 0:00:22:13 Session aborted
+32 0:00:22:13 Session aborted
+20 0:00:22:13 Session aborted
+9 0:00:22:13 Session aborted
+25 0:00:22:13 Session aborted
+15 0:00:22:13 Session aborted
+31 0:00:22:13 Session aborted
+30 0:00:22:13 Session aborted
+22 0:00:22:13 Session aborted
+11 0:00:22:13 Session aborted
+24 0:00:22:13 Session aborted
+26 0:00:22:13 Session aborted
+17 0:00:22:13 Session aborted
+1 0:00:22:13 Session aborted
+1 0:00:22:14 Continuing an interrupted session
+1 0:00:22:14 Loaded a total of 1 password hash
+1 0:00:22:14 - Node numbers 1-32 of 32 (fork)
+2 0:00:22:14 Proceeding with mask mode
+3 0:00:22:14 Proceeding with mask mode
+4 0:00:22:14 Proceeding with mask mode
+5 0:00:22:14 Proceeding with mask mode
+6 0:00:22:14 Proceeding with mask mode
+7 0:00:22:14 Proceeding with mask mode
+8 0:00:22:14 Proceeding with mask mode
+9 0:00:22:14 Proceeding with mask mode
+10 0:00:22:14 Proceeding with mask mode
+11 0:00:22:14 Proceeding with mask mode
+12 0:00:22:14 Proceeding with mask mode
+13 0:00:22:14 Proceeding with mask mode
+14 0:00:22:14 Proceeding with mask mode
+15 0:00:22:14 Proceeding with mask mode
+16 0:00:22:14 Proceeding with mask mode
+17 0:00:22:14 Proceeding with mask mode
+18 0:00:22:14 Proceeding with mask mode
+19 0:00:22:14 Proceeding with mask mode
+20 0:00:22:14 Proceeding with mask mode
+21 0:00:22:14 Proceeding with mask mode
+22 0:00:22:14 Proceeding with mask mode
+23 0:00:22:14 Proceeding with mask mode
+24 0:00:22:14 Proceeding with mask mode
+25 0:00:22:14 Proceeding with mask mode
+26 0:00:22:14 Proceeding with mask mode
+27 0:00:22:14 Proceeding with mask mode
+28 0:00:22:14 Proceeding with mask mode
+29 0:00:22:14 Proceeding with mask mode
+30 0:00:22:14 Proceeding with mask mode
+31 0:00:22:14 Proceeding with mask mode
+1 0:00:22:14 - Hash type: Raw-SHA1 (lengths up to 55)
+1 0:00:22:14 - Algorithm: SHA1 128/128 SSSE3 8x
+1 0:00:22:14 - Candidate passwords will be buffered and tried in chunks of 8
+1 0:00:22:14 - Configured to use otherwise idle processor cycles only
+1 0:00:22:14 Proceeding with mask mode
+32 0:00:22:14 Proceeding with mask mode
+18 0:00:22:25 Session aborted
+2 0:00:22:25 Session aborted
+1 0:00:22:25 Waiting for 31 children to terminate
+3 0:00:22:25 Session aborted
+14 0:00:22:25 Session aborted
+4 0:00:22:25 Session aborted
+10 0:00:22:25 Session aborted
+21 0:00:22:25 Session aborted
+16 0:00:22:25 Session aborted
+6 0:00:22:25 Session aborted
+20 0:00:22:25 Session aborted
+28 0:00:22:25 Session aborted
+24 0:00:22:25 Session aborted
+32 0:00:22:25 Session aborted
+30 0:00:22:25 Session aborted
+25 0:00:22:25 Session aborted
+17 0:00:22:25 Session aborted
+5 0:00:22:25 Session aborted
+15 0:00:22:25 Session aborted
+27 0:00:22:25 Session aborted
+23 0:00:22:25 Session aborted
+31 0:00:22:25 Session aborted
+11 0:00:22:25 Session aborted
+8 0:00:22:25 Session aborted
+29 0:00:22:25 Session aborted
+19 0:00:22:25 Session aborted
+22 0:00:22:25 Session aborted
+9 0:00:22:25 Session aborted
+26 0:00:22:25 Session aborted
+13 0:00:22:25 Session aborted
+12 0:00:22:25 Session aborted
+7 0:00:22:25 Session aborted
+1 0:00:22:25 Session aborted
+1 0:00:22:26 Continuing an interrupted session
+1 0:00:22:26 Loaded a total of 1 password hash
+1 0:00:22:26 - Node numbers 1-32 of 32 (fork)
+4 0:00:22:26 Proceeding with mask mode
+3 0:00:22:26 Proceeding with mask mode
+2 0:00:22:26 Proceeding with mask mode
+6 0:00:22:26 Proceeding with mask mode
+5 0:00:22:26 Proceeding with mask mode
+7 0:00:22:26 Proceeding with mask mode
+8 0:00:22:26 Proceeding with mask mode
+9 0:00:22:26 Proceeding with mask mode
+10 0:00:22:26 Proceeding with mask mode
+11 0:00:22:26 Proceeding with mask mode
+12 0:00:22:26 Proceeding with mask mode
+13 0:00:22:26 Proceeding with mask mode
+14 0:00:22:26 Proceeding with mask mode
+15 0:00:22:26 Proceeding with mask mode
+16 0:00:22:26 Proceeding with mask mode
+17 0:00:22:26 Proceeding with mask mode
+18 0:00:22:26 Proceeding with mask mode
+19 0:00:22:26 Proceeding with mask mode
+20 0:00:22:26 Proceeding with mask mode
+21 0:00:22:26 Proceeding with mask mode
+22 0:00:22:26 Proceeding with mask mode
+23 0:00:22:26 Proceeding with mask mode
+24 0:00:22:26 Proceeding with mask mode
+25 0:00:22:26 Proceeding with mask mode
+26 0:00:22:26 Proceeding with mask mode
+27 0:00:22:26 Proceeding with mask mode
+28 0:00:22:26 Proceeding with mask mode
+29 0:00:22:26 Proceeding with mask mode
+30 0:00:22:26 Proceeding with mask mode
+31 0:00:22:26 Proceeding with mask mode
+1 0:00:22:26 - Hash type: Raw-SHA1 (lengths up to 55)
+1 0:00:22:26 - Algorithm: SHA1 128/128 SSSE3 8x
+1 0:00:22:26 - Candidate passwords will be buffered and tried in chunks of 8
+1 0:00:22:26 - Configured to use otherwise idle processor cycles only
+1 0:00:22:26 Proceeding with mask mode
+32 0:00:22:26 Proceeding with mask mode
+1 0:01:57:28 Waiting for 31 children to terminate
+21 0:02:01:40 Session aborted
+26 0:02:01:40 Session aborted
+9 0:02:01:40 Session aborted
+6 0:02:01:40 Session aborted
+24 0:02:01:40 Session aborted
+31 0:02:01:40 Session aborted
+18 0:02:01:40 Session aborted
+2 0:02:01:40 Session aborted
+14 0:02:01:40 Session aborted
+5 0:02:01:40 Session aborted
+10 0:02:01:40 Session aborted
+29 0:02:01:40 Session aborted
+19 0:02:01:40 Session aborted
+17 0:02:01:40 Session aborted
+20 0:02:01:40 Session aborted
+13 0:02:01:40 Session aborted
+28 0:02:01:40 Session aborted
+3 0:02:01:40 Session aborted
+4 0:02:01:40 Session aborted
+11 0:02:01:40 Session aborted
+15 0:02:01:40 Session aborted
+8 0:02:01:40 Session aborted
+25 0:02:01:40 Session aborted
+32 0:02:01:40 Session aborted
+23 0:02:01:40 Session aborted
+27 0:02:01:40 Session aborted
+12 0:02:01:40 Session aborted
+30 0:02:01:40 Session aborted
+22 0:02:01:40 Session aborted
+16 0:02:01:40 Session aborted
+7 0:02:01:40 Session aborted
+1 0:02:01:40 Session aborted
+1 0:01:57:29 Continuing an interrupted session
+1 0:01:57:29 Loaded a total of 1 password hash
+1 0:01:57:29 - Node numbers 1-32 of 32 (fork)
+3 0:02:01:41 Proceeding with mask mode
+2 0:02:01:41 Proceeding with mask mode
+4 0:02:01:41 Proceeding with mask mode
+5 0:02:01:41 Proceeding with mask mode
+6 0:02:01:41 Proceeding with mask mode
+7 0:02:01:41 Proceeding with mask mode
+8 0:02:01:41 Proceeding with mask mode
+9 0:02:01:41 Proceeding with mask mode
+10 0:02:01:41 Proceeding with mask mode
+11 0:02:01:41 Proceeding with mask mode
+12 0:02:01:41 Proceeding with mask mode
+13 0:02:01:41 Proceeding with mask mode
+14 0:02:01:41 Proceeding with mask mode
+15 0:02:01:41 Proceeding with mask mode
+16 0:02:01:41 Proceeding with mask mode
+17 0:02:01:41 Proceeding with mask mode
+18 0:02:01:41 Proceeding with mask mode
+19 0:02:01:41 Proceeding with mask mode
+20 0:02:01:41 Proceeding with mask mode
+21 0:02:01:41 Proceeding with mask mode
+22 0:02:01:41 Proceeding with mask mode
+23 0:02:01:41 Proceeding with mask mode
+24 0:02:01:41 Proceeding with mask mode
+25 0:02:01:41 Proceeding with mask mode
+26 0:02:01:41 Proceeding with mask mode
+27 0:02:01:41 Proceeding with mask mode
+28 0:02:01:41 Proceeding with mask mode
+29 0:02:01:41 Proceeding with mask mode
+30 0:02:01:41 Proceeding with mask mode
+31 0:02:01:41 Proceeding with mask mode
+1 0:01:57:29 - Hash type: Raw-SHA1 (lengths up to 55)
+1 0:01:57:29 - Algorithm: SHA1 128/128 SSSE3 8x
+1 0:01:57:29 - Candidate passwords will be buffered and tried in chunks of 8
+1 0:01:57:29 - Configured to use otherwise idle processor cycles only
+1 0:01:57:29 Proceeding with mask mode
+32 0:02:01:41 Proceeding with mask mode
+1 0:01:57:29 Waiting for 31 children to terminate
+15 0:02:36:44 Session aborted
+26 0:02:36:44 Session aborted
+27 0:02:36:44 Session aborted
+32 0:02:36:44 Session aborted
+21 0:02:36:44 Session aborted
+18 0:02:36:44 Session aborted
+19 0:02:36:44 Session aborted
+5 0:02:36:44 Session aborted
+16 0:02:36:44 Session aborted
+28 0:02:36:44 Session aborted
+13 0:02:36:44 Session aborted
+20 0:02:36:44 Session aborted
+4 0:02:36:44 Session aborted
+11 0:02:36:44 Session aborted
+23 0:02:36:44 Session aborted
+25 0:02:36:44 Session aborted
+14 0:02:36:44 Session aborted
+8 0:02:36:44 Session aborted
+2 0:02:36:44 Session aborted
+3 0:02:36:44 Session aborted
+30 0:02:36:44 Session aborted
+22 0:02:36:44 Session aborted
+24 0:02:36:44 Session aborted
+12 0:02:36:44 Session aborted
+6 0:02:36:44 Session aborted
+17 0:02:36:44 Session aborted
+31 0:02:36:44 Session aborted
+29 0:02:36:44 Session aborted
+9 0:02:36:44 Session aborted
+7 0:02:36:44 Session aborted
+10 0:02:36:44 Session aborted
+1 0:02:32:32 Session aborted
+1 0:01:57:30 Continuing an interrupted session
+1 0:01:57:30 Loaded a total of 1 password hash
+1 0:01:57:30 - Node numbers 1-32 of 32 (fork)
+3 0:02:36:45 Proceeding with mask mode
+2 0:02:36:45 Proceeding with mask mode
+5 0:02:36:45 Proceeding with mask mode
+4 0:02:36:45 Proceeding with mask mode
+6 0:02:36:45 Proceeding with mask mode
+7 0:02:36:45 Proceeding with mask mode
+8 0:02:36:45 Proceeding with mask mode
+10 0:02:36:45 Proceeding with mask mode
+9 0:02:36:45 Proceeding with mask mode
+11 0:02:36:45 Proceeding with mask mode
+12 0:02:36:45 Proceeding with mask mode
+13 0:02:36:45 Proceeding with mask mode
+14 0:02:36:45 Proceeding with mask mode
+15 0:02:36:45 Proceeding with mask mode
+16 0:02:36:45 Proceeding with mask mode
+17 0:02:36:45 Proceeding with mask mode
+18 0:02:36:45 Proceeding with mask mode
+19 0:02:36:45 Proceeding with mask mode
+20 0:02:36:45 Proceeding with mask mode
+21 0:02:36:45 Proceeding with mask mode
+22 0:02:36:45 Proceeding with mask mode
+23 0:02:36:45 Proceeding with mask mode
+24 0:02:36:45 Proceeding with mask mode
+25 0:02:36:45 Proceeding with mask mode
+26 0:02:36:45 Proceeding with mask mode
+27 0:02:36:45 Proceeding with mask mode
+28 0:02:36:45 Proceeding with mask mode
+29 0:02:36:45 Proceeding with mask mode
+30 0:02:36:45 Proceeding with mask mode
+31 0:02:36:45 Proceeding with mask mode
+1 0:01:57:30 - Hash type: Raw-SHA1 (lengths up to 55)
+1 0:01:57:30 - Algorithm: SHA1 128/128 SSSE3 8x
+1 0:01:57:30 - Candidate passwords will be buffered and tried in chunks of 8
+1 0:01:57:30 - Configured to use otherwise idle processor cycles only
+1 0:01:57:30 Proceeding with mask mode
+32 0:02:36:45 Proceeding with mask mode
+1 0:01:57:30 Waiting for 31 children to terminate
+15 0:04:43:38 Session aborted
+21 0:04:43:38 Session aborted
+10 0:04:43:38 Session aborted
+29 0:04:43:38 Session aborted
+3 0:04:43:38 Session aborted
+18 0:04:43:38 Session aborted
+5 0:04:43:38 Session aborted
+30 0:04:43:38 Session aborted
+12 0:04:43:38 Session aborted
+6 0:04:43:38 Session aborted
+4 0:04:43:38 Session aborted
+28 0:04:43:38 Session aborted
+23 0:04:43:38 Session aborted
+2 0:04:43:38 Session aborted
+9 0:04:43:38 Session aborted
+26 0:04:43:38 Session aborted
+11 0:04:43:38 Session aborted
+25 0:04:43:38 Session aborted
+20 0:04:43:38 Session aborted
+13 0:04:43:38 Session aborted
+8 0:04:43:38 Session aborted
+31 0:04:43:38 Session aborted
+32 0:04:43:38 Session aborted
+19 0:04:43:39 Session aborted
+24 0:04:43:38 Session aborted
+27 0:04:43:38 Session aborted
+7 0:04:43:39 Session aborted
+22 0:04:43:39 Session aborted
+14 0:04:43:39 Session aborted
+16 0:04:43:39 Session aborted
+17 0:04:43:39 Session aborted
+1 0:04:04:23 Session aborted
+1 0:01:57:31 Continuing an interrupted session
+1 0:01:57:31 Loaded a total of 1 password hash
+1 0:01:57:31 - Node numbers 1-32 of 32 (fork)
+2 0:04:43:39 Proceeding with mask mode
+3 0:04:43:39 Proceeding with mask mode
+5 0:04:43:39 Proceeding with mask mode
+4 0:04:43:39 Proceeding with mask mode
+6 0:04:43:39 Proceeding with mask mode
+7 0:04:43:40 Proceeding with mask mode
+8 0:04:43:39 Proceeding with mask mode
+9 0:04:43:39 Proceeding with mask mode
+10 0:04:43:39 Proceeding with mask mode
+11 0:04:43:39 Proceeding with mask mode
+12 0:04:43:39 Proceeding with mask mode
+13 0:04:43:39 Proceeding with mask mode
+14 0:04:43:40 Proceeding with mask mode
+15 0:04:43:39 Proceeding with mask mode
+16 0:04:43:40 Proceeding with mask mode
+17 0:04:43:39 Proceeding with mask mode
+18 0:04:43:39 Proceeding with mask mode
+19 0:04:43:40 Proceeding with mask mode
+20 0:04:43:39 Proceeding with mask mode
+21 0:04:43:39 Proceeding with mask mode
+22 0:04:43:40 Proceeding with mask mode
+23 0:04:43:39 Proceeding with mask mode
+24 0:04:43:39 Proceeding with mask mode
+25 0:04:43:39 Proceeding with mask mode
+26 0:04:43:39 Proceeding with mask mode
+27 0:04:43:39 Proceeding with mask mode
+28 0:04:43:39 Proceeding with mask mode
+29 0:04:43:39 Proceeding with mask mode
+30 0:04:43:39 Proceeding with mask mode
+31 0:04:43:39 Proceeding with mask mode
+1 0:01:57:31 - Hash type: Raw-SHA1 (lengths up to 55)
+1 0:01:57:31 - Algorithm: SHA1 128/128 SSSE3 8x
+1 0:01:57:31 - Candidate passwords will be buffered and tried in chunks of 8
+1 0:01:57:31 - Configured to use otherwise idle processor cycles only
+1 0:01:57:31 Proceeding with mask mode
+32 0:04:43:39 Proceeding with mask mode
+1 0:01:57:31 Waiting for 31 children to terminate
+25 0:12:06:37 + Cracked mypwd
+25 0:12:06:37 Session completed
+16 0:13:21:37 Session aborted
+13 0:13:21:36 Session aborted
+3 0:13:21:36 Session aborted
+20 0:13:21:36 Session aborted
+14 0:13:21:37 Session aborted
+10 0:13:21:36 Session aborted
+26 0:13:21:36 Session aborted
+2 0:13:21:36 Session aborted
+31 0:13:21:36 Session aborted
+24 0:13:21:36 Session aborted
+23 0:13:21:36 Session aborted
+29 0:13:21:36 Session aborted
+6 0:13:21:36 Session aborted
+15 0:13:21:36 Session aborted
+4 0:13:21:36 Session aborted
+18 0:13:21:36 Session aborted
+19 0:13:21:37 Session aborted
+27 0:13:21:36 Session aborted
+5 0:13:21:36 Session aborted
+7 0:13:21:37 Session aborted
+9 0:13:21:36 Session aborted
+28 0:13:21:36 Session aborted
+8 0:13:21:36 Session aborted
+17 0:13:21:36 Session aborted
+12 0:13:21:36 Session aborted
+30 0:13:21:36 Session aborted
+32 0:13:21:36 Session aborted
+11 0:13:21:36 Session aborted
+21 0:13:21:36 Session aborted
+22 0:13:21:37 Session aborted
+1 0:10:35:28 Session aborted

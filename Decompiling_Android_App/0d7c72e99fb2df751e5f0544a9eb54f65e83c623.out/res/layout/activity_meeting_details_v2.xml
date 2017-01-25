@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar" layout="@layout/action_bar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+        <include android:id="@id/meetingDetailsBlock" layout="@layout/meeting_v2_details_block" />
+    </ScrollView>
+    <include android:id="@id/bottom_action_bar" layout="@layout/action_bar_bottom_favouritable" />
+</LinearLayout>

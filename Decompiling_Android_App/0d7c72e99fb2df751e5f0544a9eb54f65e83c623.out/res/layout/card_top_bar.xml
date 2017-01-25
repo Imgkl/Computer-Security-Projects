@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/authorThumbnail" android:background="@color/Transparent" android:layout_width="@dimen/post_image_size" android:layout_height="@dimen/post_image_size" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <ImageButton android:id="@id/postTypeThumbnail" android:background="@color/Transparent" android:layout_width="@dimen/post_image_size" android:layout_height="@dimen/post_image_size" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/postTypeThumbnail" android:layout_toRightOf="@id/authorThumbnail" android:layout_centerVertical="true">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:ellipsize="marquee" android:id="@id/author_header_text" android:paddingLeft="4.0dip" android:paddingRight="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Author Header" android:maxLines="1" />
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+            <ImageView android:id="@id/date_clock" android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/ic_clock" />
+            <TextView android:textSize="10.0sp" android:layout_gravity="center_vertical" android:id="@id/date_header_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Date Header" android:maxLines="1" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,5 @@
+counter = 14h <-- length is 20
+0DCh <-- 220
+offset of 0Ch <-- 12
+
+SHA1 Password: DC2C01D96430114CF5A2ECDB983858F58C002079

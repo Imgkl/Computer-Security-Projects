@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GridLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:columnCount="4" android:columnOrderPreserved="false" android:useDefaultMargins="true" android:alignmentMode="alignBounds">
+        <TextView android:layout_gravity="right" android:text="SSID:" />
+        <EditText android:id="@id/ssid" android:ems="10" android:inputType="textNoSuggestions" />
+        <TextView android:layout_gravity="right" android:layout_column="0" android:text="Password:" />
+        <EditText android:id="@id/password" android:ems="10" android:inputType="textNoSuggestions" />
+        <TextView android:layout_gravity="right" android:layout_column="0" android:text="Security:" />
+        <Spinner android:id="@id/security" />
+    </GridLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Add" android:layout_weight="0.5" android:onClick="onAddClick" />
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Remove" android:layout_weight="0.5" android:onClick="onRemoveClick" />
+    </LinearLayout>
+</LinearLayout>

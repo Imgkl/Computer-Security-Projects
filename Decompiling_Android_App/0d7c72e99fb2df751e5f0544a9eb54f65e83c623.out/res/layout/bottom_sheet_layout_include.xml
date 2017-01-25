@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/session_details_bottom_sheet" android:background="@drawable/bottom_sheet_background_and_border" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/bottom_sheet_attend_session_button" android:background="@drawable/list_selector_background" android:padding="15.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="35.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_action_attend" />
+        <TextView android:textColor="@color/contents_text" android:id="@id/bottom_sheet_attend_session_label" android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/bottom_sheet_bookmark_session_button" android:background="@drawable/list_selector_background" android:padding="15.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="35.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_action_bkmk" />
+        <TextView android:textColor="@color/contents_text" android:id="@id/bottom_sheet_bookmark_session_label" android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

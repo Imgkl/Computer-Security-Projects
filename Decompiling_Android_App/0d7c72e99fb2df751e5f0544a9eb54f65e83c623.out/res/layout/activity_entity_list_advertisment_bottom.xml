@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar" layout="@layout/action_bar" />
+    <com.eventgenie.android.ui.other.CustomViewFlipper android:id="@id/flipper" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/filter_segment" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageButton android:id="@id/btn_search" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_delete" android:layout_alignParentRight="true" android:onClick="onClearSearchClick" />
+                <EditText android:id="@id/edit_search" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/btn_search" android:layout_alignParentLeft="true" android:inputType="textFilter|textNoSuggestions" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:gravity="center_horizontal" android:id="@id/list_header" android:background="@color/light_background" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/BodyText" />
+                <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:transcriptMode="normal" android:layout_weight="1.0" />
+                <include android:gravity="center" android:id="@android:id/empty" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/empty_fav_list_view" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:id="@id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateOnly="true" style="@style/IndeterminateProgressIndicator" />
+        </LinearLayout>
+    </com.eventgenie.android.ui.other.CustomViewFlipper>
+    <include android:id="@id/footer_ad" layout="@layout/advert_bottom" />
+</LinearLayout>

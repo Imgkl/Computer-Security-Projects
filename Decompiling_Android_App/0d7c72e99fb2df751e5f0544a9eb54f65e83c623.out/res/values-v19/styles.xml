@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DefaultRootLayout">
+        <item name="android:background">@drawable/background_kitkat_gray</item>
+    </style>
+    <style name="DefaultText">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingLeft">24.0dip</item>
+        <item name="android:paddingTop">12.0dip</item>
+        <item name="android:paddingRight">24.0dip</item>
+        <item name="android:paddingBottom">12.0dip</item>
+        <item name="android:text">Default</item>
+        <item name="android:drawablePadding">4.0dip</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="SuperActivityToast_Button_Button">
+        <item name="android:background">@drawable/selector_kitkat_undobutton</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingRight">24.0dip</item>
+        <item name="android:drawablePadding">8.0dip</item>
+    </style>
+    <style name="SuperActivityToast_Button_Divider">
+        <item name="android:layout_marginTop">12.0dip</item>
+        <item name="android:layout_marginBottom">12.0dip</item>
+    </style>
+    <style name="SuperActivityToast_Button_RootLayout" parent="@style/DefaultRootLayout">
+        <item name="android:layout_marginLeft">@dimen/buttontoast_x_padding</item>
+        <item name="android:layout_marginRight">@dimen/buttontoast_x_padding</item>
+        <item name="android:layout_marginBottom">@dimen/buttontoast_hover</item>
+    </style>
+    <style name="SuperActivityToast_Button_TextView" parent="@style/DefaultText">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:paddingTop">14.0dip</item>
+        <item name="android:paddingBottom">14.0dip</item>
+    </style>
+    <style name="SuperActivityToast_ProgressHorizontal_ProgressBar" parent="@android:style/Widget.Holo.ProgressBar.Horizontal">
+        <item name="android:layout_marginLeft">24.0dip</item>
+        <item name="android:layout_marginRight">24.0dip</item>
+        <item name="android:layout_marginBottom">4.0dip</item>
+    </style>
+    <style name="SuperActivityToast_ProgressHorizontal_RootLayout" parent="@style/DefaultRootLayout">
+        <item name="android:minWidth">128.0dip</item>
+    </style>
+    <style name="SuperActivityToast_ProgressHorizontal_TextView" parent="@style/DefaultText">
+        <item name="android:paddingTop">6.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+    </style>
+    <style name="SuperActivityToast_Progress_ProgressBar" parent="@android:style/Widget.Holo.ProgressBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginLeft">12.0dip</item>
+    </style>
+    <style name="SuperActivityToast_Progress_TextView" parent="@style/DefaultText">
+        <item name="android:paddingLeft">0.0dip</item>
+    </style>
+    <style name="SuperCardToast_Button_RootLayout" parent="@style/DefaultRootLayout">
+        <item name="android:background">@drawable/selector_kitkat_square_undobutton</item>
+    </style>
+</resources>

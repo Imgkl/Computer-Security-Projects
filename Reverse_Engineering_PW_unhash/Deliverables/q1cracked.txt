@@ -1,0 +1,7 @@
+mypwd:co5916
+
+10^4 = 10,000
+2^13 = 8192
+2^14 = 1684
+
+it is about 13~14 bits of entropy

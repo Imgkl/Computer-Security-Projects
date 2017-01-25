@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar" android:layout_weight="1.0" layout="@layout/action_bar" />
+    <com.eventgenie.android.ui.other.CustomViewFlipper android:id="@id/contentFlipper" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:id="@id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:indeterminateOnly="true" android:layout_centerInParent="true" style="@style/IndeterminateProgressIndicator" />
+            <TextView android:gravity="center_horizontal" android:id="@id/topText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxWidth="160.0dip" android:text="@string/meeting_please_wait_while_we_check_for_matching_availability" android:singleLine="false" android:layout_above="@id/progress" android:layout_centerHorizontal="true" />
+            <TextView android:gravity="center_horizontal" android:id="@id/bottomText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxWidth="160.0dip" android:singleLine="false" android:layout_below="@id/progress" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="@style/ListItemText.Primary" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:id="@id/header_instructions" android:layout_width="fill_parent" layout="@layout/list_section_header_holo" />
+            <android.support.v7.widget.GridLayout android:id="@id/grid" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.eventgenie.android.ui.other.CustomViewFlipper android:id="@id/timeViewFlipper" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+                  xmlns:android="http://schemas.android.com/apk/res/android">
+                    <TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+                        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip">
+                            <TextView android:gravity="center" android:id="@id/day_available" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="X\n•" />
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/meeting_calendar_legend_available_day" />
+                        </TableRow>
+                        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip">
+                            <TextView android:gravity="center" android:id="@id/day_not_available" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="X" />
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/meeting_calendar_legend_non_available_day" />
+                        </TableRow>
+                        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <TextView android:gravity="center" android:id="@id/day_non_event" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="X" />
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/meeting_calendar_legend_non_event_day" />
+                        </TableRow>
+                    </TableLayout>
+                </RelativeLayout>
+                <ListView android:id="@id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <LinearLayout android:orientation="vertical" android:id="@id/section_daily_quotas" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <include android:id="@id/header_daily_quotas" layout="@layout/list_section_header_holo" />
+                        <TableLayout android:id="@id/dailyQuotaTable" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="0, 1,2" />
+                    </LinearLayout>
+                </ScrollView>
+            </com.eventgenie.android.ui.other.CustomViewFlipper>
+        </LinearLayout>
+    </com.eventgenie.android.ui.other.CustomViewFlipper>
+    <include android:id="@id/bottom_action_bar" android:layout_weight="1.0" layout="@layout/action_bar_bottom_favouritable" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/detail_header_bg" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/player1container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/photo1" android:background="@drawable/myprofile_mugshot_border" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/profile_placeholder" android:layout_alignParentLeft="true" android:onClick="onMugshotClick" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/photo1">
+            <TextView android:id="@id/name1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sample_textview_text" style="@style/HeadingText" />
+            <TextView android:id="@id/desc1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sample_textview_text" style="@style/ListItemText.Secondary" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/player2container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/player1container">
+        <ImageView android:id="@id/photo2" android:background="@drawable/myprofile_mugshot_border" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/profile_placeholder" android:layout_alignParentRight="true" android:onClick="onMugshotClick" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/photo2">
+            <TextView android:id="@id/name2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sample_textview_text" style="@style/HeadingText" />
+            <TextView android:id="@id/desc2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sample_textview_text" style="@style/ListItemText.Secondary" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

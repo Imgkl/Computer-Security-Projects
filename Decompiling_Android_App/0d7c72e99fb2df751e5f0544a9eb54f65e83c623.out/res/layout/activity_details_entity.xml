@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar" layout="@layout/action_bar" />
+    <FrameLayout android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/header_session" android:visibility="gone" layout="@layout/header_session" />
+            <include android:id="@id/header_logo" android:visibility="gone" layout="@layout/header_logo" />
+            <include android:id="@id/header_speaker" android:visibility="gone" layout="@layout/header_speaker" />
+            <include android:id="@id/header_visitor" android:visibility="gone" layout="@layout/header_visitor" />
+            <include android:id="@id/header_product_gallery" android:visibility="gone" layout="@layout/header_product_gallery" />
+            <View android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <com.astuetz.PagerSlidingTabStrip android:id="@id/indicator" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <com.eventgenie.android.ui.other.CustomViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <FrameLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+            <include android:id="@id/bottom_sheet_layout_include" layout="@layout/bottom_sheet_layout_include" />
+            <include android:id="@id/bottom_action_bar" layout="@layout/action_bar_bottom_favouritable" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

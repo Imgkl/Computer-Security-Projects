@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="feeback_ratings">
+        <item>5 – отлично</item>
+        <item>4 – хорошо</item>
+        <item>3 – хорошо</item>
+        <item>2 – Могло быть и лучше</item>
+        <item>1 – Плохо</item>
+    </string-array>
+    <string-array name="yes_no">
+        <item>Да</item>
+        <item>Нет</item>
+    </string-array>
+</resources>

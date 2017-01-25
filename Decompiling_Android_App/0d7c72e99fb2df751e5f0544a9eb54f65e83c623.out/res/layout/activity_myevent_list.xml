@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar" layout="@layout/action_bar" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textStyle="bold" android:id="@id/emailme_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <AutoCompleteTextView android:id="@id/autoCompleteEmail" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="" android:ems="10" android:layout_weight="1.0" android:inputType="textEmailAddress" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:gravity="center_horizontal" android:id="@id/list_header" android:background="@color/light_background" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/BodyText" />
+    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:transcriptMode="normal" android:layout_weight="1.0" />
+    <TextView android:gravity="center" android:id="@id/myEventEmpty" android:padding="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/no_data" android:layout_weight="1.0" />
+    <include android:gravity="center" android:id="@id/myEventLeadGenieEmpty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/empty_fav_list_view" />
+    <include android:id="@id/footer_ad" layout="@layout/advert_bottom" />
+</LinearLayout>

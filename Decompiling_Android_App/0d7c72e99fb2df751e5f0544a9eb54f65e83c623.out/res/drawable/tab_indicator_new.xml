@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <nine-patch android:src="@drawable/tab_background_active" />
+    </item>
+    <item android:state_pressed="true">
+        <nine-patch android:src="@drawable/tab_background_active" />
+    </item>
+    <item android:state_focused="true">
+        <nine-patch android:src="@drawable/tab_background_active" />
+    </item>
+    <item android:state_enabled="false">
+        <nine-patch android:src="@drawable/tab_background" />
+    </item>
+    <item>
+        <nine-patch android:src="@drawable/tab_background" />
+    </item>
+</selector>

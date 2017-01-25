@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom|center" android:id="@id/root_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SuperActivityToast_Button_RootLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/message_textview" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/SuperActivityToast_Button_TextView" />
+    <View android:id="@id/divider" android:background="@color/light_gray" android:layout_width="1.0dip" android:layout_height="fill_parent" style="@style/SuperActivityToast_Button_Divider" />
+    <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/light_gray" android:id="@id/button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="UNDO" android:drawableLeft="@drawable/icon_dark_undo" style="@style/SuperActivityToast_Button_Button" />
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="@dimen/new_top_tab_height">
+        <shape android:shape="rectangle">
+            <solid android:color="#ff898989" />
+        </shape>
+    </item>
+    <item android:top="@dimen/new_top_tab_height" android:bottom="1.0dip">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/new_top_tab_app_background" />
+        </shape>
+    </item>
+    <item android:left="@dimen/new_top_tab_space" android:right="@dimen/new_top_tab_space">
+        <shape android:shape="rectangle">
+            <corners android:topLeftRadius="@dimen/new_top_tab_corner_radius" android:topRightRadius="@dimen/new_top_tab_corner_radius" android:bottomLeftRadius="0.100000024dip" android:bottomRightRadius="0.100000024dip" />
+            <gradient android:startColor="@color/new_top_tab_unselected_fill_start" android:endColor="@color/new_top_tab_unselected_fill_end" android:angle="90.0" />
+            <stroke android:width="1.0dip" android:color="#ff898989" />
+        </shape>
+    </item>
+</layer-list>

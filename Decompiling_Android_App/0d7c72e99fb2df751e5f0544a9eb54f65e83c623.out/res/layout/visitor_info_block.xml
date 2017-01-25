@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/header_organisation" layout="@layout/list_section_header_holo" />
+    <TableLayout android:id="@id/tableOrganisation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+        <TableRow android:id="@id/rowTitle" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contact_details_organisation_title" style="@style/RowHeaderText" />
+            <TextView android:id="@id/title" android:tag="jobTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/RowContentText" />
+        </TableRow>
+        <TableRow android:id="@id/rowDepartment" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contact_details_organisation_department" style="@style/RowHeaderText" />
+            <TextView android:id="@id/department" android:tag="department" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/RowContentText" />
+        </TableRow>
+    </TableLayout>
+    <include android:id="@id/reason_header" android:layout_width="fill_parent" layout="@layout/list_section_header_holo" />
+    <LinearLayout android:id="@id/reason_layout" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/reasonForAttending" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/RowContentText" />
+    </LinearLayout>
+    <include android:id="@id/biography_header" android:layout_width="fill_parent" layout="@layout/list_section_header_holo" />
+    <LinearLayout android:id="@id/bio_layout" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/bio" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/RowContentText" />
+    </LinearLayout>
+</LinearLayout>

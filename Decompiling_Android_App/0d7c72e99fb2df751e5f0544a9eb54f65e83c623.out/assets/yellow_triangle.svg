@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="117.11749"
+   height="108.99202"
+   id="svg2390"
+   sodipodi:version="0.32"
+   inkscape:version="0.48.4 r9939"
+   version="1.0"
+   sodipodi:docname="yellow_triangle.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/home/alex/temp/yellow_triangle.png"
+   inkscape:export-xdpi="231.80457"
+   inkscape:export-ydpi="231.80457">
+  <defs
+     id="defs2392">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective2398" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="43.321346"
+     inkscape:cy="76.850932"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1918"
+     inkscape:window-height="1005"
+     inkscape:window-x="1920"
+     inkscape:window-y="38"
+     fit-margin-top="10"
+     fit-margin-left="10"
+     fit-margin-right="10"
+     fit-margin-bottom="10"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata2395">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-3.3031067,-2.2534116)">
+    <g
+       transform="matrix(0.6831105,0,0,0.6831105,8.4762409,7.4265646)"
+       style="fill:#ffd42a;fill-opacity:1"
+       id="g2387"
+       inkscape:export-filename="/home/mgsmith/Desktop/warning.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         style="fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:6.83137941;stroke-miterlimit:4;stroke-dasharray:none"
+         sodipodi:nodetypes="ccccccccccc"
+         id="path2389"
+         d="m 12.473,121.082 c -0.913967,1.76129 -1.9912,3.408 -1.9913,5.341 l 0.009,0.80788 c 0,4.172 3.265872,6.69412 7.020572,6.69412 l 121.319698,0 c 3.755,0 6.98886,-3.12652 6.98886,-7.29852 L 145.78,125.815 c 0,-1.933 -0.95029,-3.61152 -1.991,-5.341 L 83.7056,12.6938 C 81.051,9.74423 76.7473,9.74423 74.0923,12.6942 L 12.473,121.082 z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <path
+       transform="matrix(0.8131767,0,0,0.8131767,43.388666,22.222511)"
+       d="m 31.962924,74.47538 c 0,4.441268 -3.600359,8.041627 -8.041627,8.041627 -4.441268,0 -8.041627,-3.600359 -8.041627,-8.041627 0,-4.441268 3.600359,-8.041627 8.041627,-8.041627 4.441268,0 8.041627,3.600359 8.041627,8.041627 z"
+       sodipodi:ry="8.0416269"
+       sodipodi:rx="8.0416269"
+       sodipodi:cy="74.47538"
+       sodipodi:cx="23.921297"
+       id="path2393"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/mgsmith/Desktop/warning.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccsccc"
+       id="path2395"
+       d="m 62.798321,37.350696 c 2.569035,0 6.55608,2.046854 6.55608,4.589355 l -1.918845,26.423562 c 0,2.542508 -2.0682,4.589355 -4.637235,4.589355 -2.56902,0 -4.63722,-2.046847 -4.63722,-4.589355 l -2.23866,-26.423562 c 0,-2.542501 4.30686,-4.589355 6.87588,-4.589355 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:export-filename="/home/mgsmith/Desktop/warning.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

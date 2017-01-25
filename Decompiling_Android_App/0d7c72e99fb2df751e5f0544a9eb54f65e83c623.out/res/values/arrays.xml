@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="feeback_ratings">
+        <item>5 – Excellent</item>
+        <item>4 – Good</item>
+        <item>3 – OK</item>
+        <item>2 – Could be better</item>
+        <item>1 – Poor</item>
+    </string-array>
+    <string-array name="yes_no">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="activitystream_filter_list">
+        <item>Stream</item>
+        <item>Favourites</item>
+        <item>MyPosts</item>
+    </string-array>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/footer_ad" android:tag="advert_bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <ImageView android:layout_gravity="bottom|center" android:id="@id/footer_ad_img" android:src="@drawable/image_placeholder" android:onClick="onAdClick" android:contentDescription="@string/description" style="@style/advertisment_imageview" />
+</LinearLayout>

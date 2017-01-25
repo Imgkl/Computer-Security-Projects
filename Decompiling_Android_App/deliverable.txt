@@ -1,0 +1,42 @@
+1) https://play.google.com/store/apps/details?id=com.geniemobile.app1744009&hl=en
+2) find ./ -name "*.smali" | wc -l
+
+   11011 smali class files
+3) 7 instances of cipher 
+grep -r "Cipher;->getInstance(" ./
+
+4) .//smali/com/genie_connect/android/utils/crypt/Crypt2.smali:    invoke-static {v8}, Ljavax/crypto/Cipher;->getInstance(Ljava/lang/String;)Ljavax/crypto/Cipher;
+
+const-string v8, "AES/CBC/PKCS5Padding"
+
+    invoke-static {v8}, Ljavax/crypto/Cipher;->getInstance(Ljava/lang/String;)Ljavax/crypto/Cipher;
+
+    method its called in a function called decrypt along with a hex byte 1 passed in as a parameter. From Java crypto library, hex 1 is decrypt mode.
+
+mode of operation: DECRYPT_MODE
+
+Key; 	0x46t
+        0x41t
+        0x41t
+        0x41t
+        0x37t
+        0x35t
+        0x39t
+        0x44t
+        0x36t
+        0x37t
+        0x41t
+        0x35t
+        0x30t
+        0x39t
+        0x44t
+        0x32t
+
+IV: 
+.local v1, "iv":[B
+    invoke-virtual {v4, v1}, Ljava/security/SecureRandom;->nextBytes([B)V
+
+    comes from secureRandom
+
+5) Because it is using CBC there is not integrity checking unless they prouct a HMAC later on in the code.
+6) To fix this I would make the ciper into AES/GCM/PKCS5Padding, this way there is integrity checking

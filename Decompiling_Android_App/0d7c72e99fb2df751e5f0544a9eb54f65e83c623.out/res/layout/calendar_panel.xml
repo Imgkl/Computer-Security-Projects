@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.eventgenie.android.ui.ObservableScrollView android:id="@id/blocks_scroll" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <view android:id="@id/blocks" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.eventgenie.android.ui.calendar.BlocksLayout">
+        <view android:id="@id/blocks_ruler" android:tag="schedule_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.eventgenie.android.ui.calendar.TimeRulerView" />
+        <View android:id="@id/blocks_now" android:background="@drawable/now_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </view>
+</com.eventgenie.android.ui.ObservableScrollView>

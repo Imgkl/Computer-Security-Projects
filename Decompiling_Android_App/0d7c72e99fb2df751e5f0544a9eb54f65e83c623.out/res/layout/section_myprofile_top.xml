@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/section_credits" android:background="@color/actionbar_gray" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_credits" style="@style/RowHeaderText" />
+        <LinearLayout android:gravity="center_vertical" android:id="@id/group_credits_message" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="22.0dip" android:src="@drawable/message_credits" />
+            <TextView android:gravity="center" android:id="@id/text_credits_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="1" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@id/group_credits_meeting" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="22.0dip" android:src="@drawable/meeting_credits" />
+            <TextView android:gravity="center" android:id="@id/text_credits_meetings" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="1" />
+        </LinearLayout>
+    </LinearLayout>
+    <include android:id="@id/header_settings" layout="@layout/list_section_header_holo" />
+    <CheckBox android:id="@id/enable_networking" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/profile_enable_networking" />
+    <LinearLayout android:orientation="vertical" android:id="@id/section_availability" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/header_availability" layout="@layout/list_section_header_holo" />
+        <android.support.v7.widget.GridLayout android:id="@id/grid" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/section_daily_quotas" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/header_daily_quotas" layout="@layout/list_section_header_holo" />
+        <TableLayout android:id="@id/dailyQuotaTable" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="0, 1,2" />
+    </LinearLayout>
+    <ViewStub android:id="@id/editable_stub" android:layout="@layout/visitor_details_block_editable" android:inflatedId="@id/visitor_details_block" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/not_editable_stub" android:layout="@layout/visitor_details_block_not_editable" android:inflatedId="@id/visitor_details_block" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

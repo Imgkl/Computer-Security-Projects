@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/user_accounts" android:key="user_accounts">
+        <PreferenceScreen android:title="@string/prefs_accounts_signin" android:key="sign_in" />
+        <PreferenceScreen android:title="@string/prefs_accounts_signout" android:key="sign_out" />
+        <PreferenceScreen android:title="Sign out of proofer" android:key="sign_out_proofer" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/prefs_user_interface_category" android:key="ui_preferences">
+        <ListPreference android:title="@string/prefs_prefered_language_title" android:key="prefered_language" android:summary="ABBBABBABBA" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/prefs_push_category" android:key="push_preferences">
+        <CheckBoxPreference android:title="@string/prefs_allow_push_title" android:key="allow_push" android:summary="@string/prefs_allow_push_summary" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/prefs_data_category" android:key="data_version_preferences">
+        <CheckBoxPreference android:title="@string/prefs_auto_update_title" android:key="auto_update" android:summary="@string/prefs_auto_update_summary" android:defaultValue="true" />
+        <PreferenceScreen android:title="@string/prefs_check_title" android:key="check_now" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/prefs_notifications_category" android:key="notification_preferences">
+        <CheckBoxPreference android:title="@string/prefs_enable_sounds_title" android:key="enable_sounds" android:summary="@string/prefs_enable_sounds_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/prefs_enable_vibration_title" android:key="enable_vibration" android:summary="@string/prefs_enable_vibration_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/prefs_enable_leds_title" android:key="enable_leds" android:summary="@string/prefs_enable_leds_summary" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/prefs_actions" android:key="advanced_preferences">
+        <PreferenceScreen android:title="@string/preferences_label_wifi_information" android:key="wifi_info" />
+        <PreferenceScreen android:title="@string/prefs_info_category" android:key="screen_preference_info">
+            <PreferenceCategory android:title="@string/prefs_data" android:key="info_data">
+                <PreferenceScreen android:enabled="true" android:title="Primary event" android:selectable="true" android:key="current_version" android:summary="" />
+                <PreferenceScreen android:enabled="true" android:title="Multi event" android:selectable="true" android:key="current_version_secondary" android:summary="" />
+                <PreferenceScreen android:enabled="true" android:title="@string/prefs_last_checked_title" android:selectable="true" android:key="last_checked" android:summary="" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="@string/prefs_build" android:key="info_build">
+                <PreferenceScreen android:enabled="true" android:title="App version" android:selectable="true" android:key="version_info" android:summary="" />
+                <PreferenceScreen android:enabled="true" android:title="@string/prefs_info_build" android:selectable="true" android:key="build_info" android:summary="@string/library_build" />
+                <PreferenceScreen android:enabled="true" android:title="Build Flags" android:selectable="true" android:key="build_flags" android:summary="" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="@string/prefs_network" android:key="info_build">
+                <PreferenceScreen android:enabled="true" android:title="Current Server" android:selectable="true" android:key="current_server" android:summary="" />
+                <PreferenceScreen android:enabled="true" android:title="UA Alias" android:selectable="true" android:key="ua_alias" android:summary="" />
+            </PreferenceCategory>
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/prefs_developer_category" android:key="dev_category">
+        <PreferenceScreen android:enabled="true" android:title="Locale Used" android:selectable="true" android:key="locale_used" android:summary="" />
+        <PreferenceScreen android:title="Fire Queue" android:key="fire_ffq" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/beacons" android:key="beacons_settings">
+        <CheckBoxPreference android:title="@string/beacon_scan_forever_title" android:key="beacon_scan_forever" android:summary="@string/beacon_scan_forever_summary" android:defaultValue="false" />
+        <EditTextPreference android:maxLength="3" android:numeric="integer" android:title="@string/beacon_scan_time_title" android:key="beacon_scan_time" android:summary="@string/beacon_scan_time_summary" android:defaultValue="3" />
+        <EditTextPreference android:maxLength="3" android:numeric="integer" android:title="@string/beacon_sleep_time_title" android:key="beacon_sleep_time" android:summary="@string/beacon_sleep_time_summary" android:defaultValue="10" />
+    </PreferenceCategory>
+</PreferenceScreen>
